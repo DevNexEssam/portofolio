@@ -47,7 +47,7 @@ const About = () => {
               {ABOUT_DATA1.map((item) => (
                 <div
                   key={item.id}
-                  className="text-textSoft flex items-center gap-[5px] hover:text-mainColor cursor-pointer dark:text-textSoftDark"
+                  className="text-textSoft flex items-center gap-[5px] hover:text-mainColor cursor-pointer dark:text-textSoftDark dark:hover:text-mainColor"
                 >
                   <span className="block mb-2 sm:text-[15px] text-textColor dark:text-textColorDark">{item.icon}</span>
                   <span className="block mb-2 sm:text-[15px]">{item.label}</span>
@@ -59,7 +59,7 @@ const About = () => {
               {ABOUT_DATA2.map((item) => (
                 <div
                   key={item.id}
-                  className="text-textSoft flex gap-[5px] items-center hover:text-mainColor cursor-pointer dark:text-textSoftDark"
+                  className="text-textSoft flex gap-[5px] items-center hover:text-mainColor cursor-pointer dark:text-textSoftDark dark:hover:text-mainColor"
                 >
                   <span className="block mb-2 sm:text-[15px] text-textColor dark:text-textColorDark">
                     {item.icon}
