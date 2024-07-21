@@ -35,7 +35,7 @@ const About = () => {
             {ABOUT_ICON.map((item) => (
               <span
                 key={item.id}
-                className="text-textColor bg-bgSoft p-[10px] text-[30px] rounded-[5px] cursor-pointer hover:bg-zinc-800 hover:text-mainColor dark:text-textColorDark dark:bg-bgSoftDark"
+                className="text-textColor bg-bgSoft p-[10px] text-[30px] rounded-[5px] cursor-pointer hover:bg-zinc-800 hover:text-mainColor dark:text-textColorDark dark:bg-bgSoftDark dark:hover:text-mainColor"
               >
                 {item.icon}
               </span>
